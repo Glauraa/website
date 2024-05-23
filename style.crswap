@@ -1,0 +1,53 @@
+/* color, número que apresenra no figma
+padding, margens interiores:top, left, bottom... margin: (topo)10 (direita)10 (baixo)10 (esquerda)10 
+dá para fazer uma subclasse dentro dos elementos, ex class: row projeto  (html) e no css meter .projeto h3
+
+hover, funciona quando passo o cursor sobre determinado elemento?
+
+*/
+
+
+.logoglaura {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.navbar-nav {
+    text-transform: uppercase;
+    background-color: #D29696;
+}
+
+body{
+    background-color: #FBF6F1;
+    /* copiado do google fonts está aplicado a todo o website no entanto posso mais tarde aplicar a uma classe*/
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2{ 
+    text-align: center;
+    color: brown;
+}
+
+.conhecerautora {
+    background-color: #D29696;
+    color: #FFFFFF;
+}
+
+
+.letragrande {
+    text-transform: uppercase;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #D29696;
+}

@@ -1,0 +1,160 @@
+/* color, número que apresenra no figma
+padding, margens interiores:top, left, bottom... margin: (topo)10 (direita)10 (baixo)10 (esquerda)10 
+dá para fazer uma subclasse dentro dos elementos, ex class: row projeto  (html) e no css meter .projeto h3
+
+hover, funciona quando passo o cursor sobre determinado elemento?
+
+*/
+
+
+.barratopo {
+ color: #614949;
+}
+
+.logoglaura {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.logoglaura img:hover {
+    transform: none;
+    transition: none;
+}
+
+
+
+.nav-link {
+    color: #FBF6F1;
+}
+
+.navbar .nav-item  {
+justify-content: flex;
+}
+
+
+ul {
+    list-style: none;
+}
+
+h1, h2{ 
+    text-align: center;
+    color: black ;
+    font-size: 25px;
+}
+
+/*confirmar com o professor se posso fazer uma classe partilhada com os títulos dos grupos de 3*/
+.titulos3 {
+    color: black;
+}
+
+.conhecerautora {
+    background-color: #D29696;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tituloautora {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.corpoautora {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.letragrande {
+    color: #b86f6f;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #614949;
+}
+
+.img-fluid {
+    padding-bottom: 10px;
+}
+
+.carousel-inner {
+    padding-bottom: 10px;
+}
+
+
+
+/*breakpoints*/
+a img:hover { 
+    transform: scale(1.1);
+    transition: transform 0,5s;
+}
+
+
+
+.footer .fa-brands:hover {
+    color: #D29696;
+}
+
+
+.rodape {
+    background-color: #614949;
+    color: #FBF6F1;
+    padding-top: 20px; /* aplica espaçamento interno superior no bloco rodapé */ 
+}
+
+
+.rodapebrands {
+    color:  #FFFFFF;
+}
+
+
+.row {
+    margin-bottom: 20px; /* para afastar as áreas seguintes da atual*/
+}
+
+/* para que os ícones não fiquem próximos do limite inferior do menu */
+.social {
+    margin-bottom: 10px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    color: #D29696;
+
+}
+
+.navbar {
+    text-transform: uppercase;
+    background-color: #D29696;
+}
+
+
+/* Tipografia Libre Baskerville */ 
+body{
+    background-color: #FBF6F1;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*dúvidas:
+1.clase de f-brands para rodapé cor diferente mas n consegui;
+2.barra de topo não está a funcionar.
+3. como fazer barra de pesquisa?
+
+3.coloocar alt nas imagens texto para invisuais
+wetransfer.*/

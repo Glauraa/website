@@ -8,7 +8,8 @@ hover, funciona quando passo o cursor sobre determinado elemento?
 
 
 .barratopo {
- color: #614949;
+    background-color:#9C8686;
+    height: 15px;
 }
 
 .logoglaura {
@@ -22,24 +23,39 @@ hover, funciona quando passo o cursor sobre determinado elemento?
 }
 
 
-
 .nav-link {
     color: #FBF6F1;
 }
 
 .navbar .nav-item  {
-justify-content: flex;
+justify-content:center;
 }
 
+.navbar .nav-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar .nav-item:hover  {
+    font-weight: bold;
+    color: #9C8686;
+}
+
+.navbar .navbar-nav .nav-item .active 
+{ color:#5a5050; 
+}
 
 ul {
-    list-style: none;
+    list-style:disc;
 }
 
 h1, h2{ 
     text-align: center;
     color: black ;
     font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /*confirmar com o professor se posso fazer uma classe partilhada com os títulos dos grupos de 3*/
@@ -57,10 +73,22 @@ h1, h2{
 .tituloautora {
     color: #FFFFFF;
     text-align: center;
-    margin-top: 30px;
-    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 36px;
     font-weight: bold;
+    font-family: 'Sunmora', sans-serif;
 }
+
+.tituloautora1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Sunmora', sans-serif;
+}
+
 
 .corpoautora {
     margin-top: 30px;
@@ -81,7 +109,7 @@ a {
 
 
 a:hover {
-    color: #614949;
+    color: #9C8686;
 }
 
 .img-fluid {
@@ -96,8 +124,7 @@ a:hover {
 
 /*breakpoints*/
 a img:hover { 
-    transform: scale(1.1);
-    transition: transform 0,5s;
+    transition: transform 5s;
 }
 
 
@@ -108,14 +135,9 @@ a img:hover {
 
 
 .rodape {
-    background-color: #614949;
+    background-color: #9C8686;
     color: #FBF6F1;
     padding-top: 20px; /* aplica espaçamento interno superior no bloco rodapé */ 
-}
-
-
-.rodapebrands {
-    color:  #FFFFFF;
 }
 
 
@@ -150,11 +172,241 @@ body{
     font-style: normal;
 }
 
+.rodape .fa-brands {
+    color:  white;
+    margin-bottom: 20px;
+}
 
+.rodape .fa-brands:hover {
+    color:#D29696;
+}
+
+
+.drt {
+    text-align: right;
+}
+
+.search {
+    background-color: #D29696;
+    padding: 10px 12px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+.search:hover {
+    background-color: #FFFFFF;
+    color: #D29696;
+}
+
+.social .fa-brands:hover {
+    color:#9C8686;
+}
+
+.titulosartigos {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: xx-large;
+}
+
+.titulosartigos2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.titulosartigosECOBELEZA {
+     font-family: "Libre Baskerville", serif;
+     font-weight: 700;
+     font-style: normal;
+     font-size: xx-large;
+     text-align: center;
+}
+
+.titulosartigosECOBELEZA .subtitulos {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-bottom: 15px;
+    font-size: small;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.centrar-vertical .subtitulos{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.subtitulos {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-bottom: 15px;
+    font-size: small;
+    text-align: center;
+}
+
+.subtitulos:hover{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-bottom: 15px;
+    font-size: small;
+    text-align: center;
+    color: #5a5050;
+}
+
+.subtitulos1 {
+    font-size: 20px;
+}
+
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+ }
+
+.drop-cap::first-letter {
+    float: left;
+    font-size: 5em;
+    margin: 0 .1em 0 0;
+    line-height: 0.85;
+}
+
+
+
+iframe {
+    border: none; 
+}
+
+.centrar-vertical {
+	/* utiliza um flexbox layout 
+    https://www.w3schools.com/css/css3_flexbox.asp */
+	display: flex;
+	
+	/* https://www.w3schools.com/css/css3_flexbox_container.asp#flex-direction  */
+	flex-direction: row;
+	
+	/* https://www.w3schools.com/css/css3_flexbox_container.asp#align-items */
+	align-items: center;
+}
+
+
+.artigopele li {
+    list-style: none;
+}
+
+.artigopele ol {
+    padding-left: 0px;
+}
+
+.link-titulo {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.pixel {
+    width: 60%;
+    height: 1px;
+    position: relative;
+    left: 4px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+
+.carousel-caption {
+    color: black;
+    bottom: -6.75rem;
+    position: static;
+    text-align: left;
+}
+
+.carousel-caption  h5 {
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color:#FBF6F1;
+    background-color: #9C8686;
+}
+
+.carousel-caption  p {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.carrosselecobeleza
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    margin-bottom: 100%;
+}
+
+.carrosselecobeleza .carousel-indicator-width {
+    margin-bottom: 70px;
+}
+
+.carrosselecobeleza .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px; 
+  width: 30px;  
+}
+
+.carrosselecobeleza .carousel-control-prev,
+.carrosselecobeleza .carousel-control-next {
+  top: 10px; /* Ajusta a distância do topo */
+  bottom: 90px ; /* Remove a propriedade bottom */
+  transform:none; /* Remove a transformação vertical */
+}
+
+
+.carrosselindex .carousel-control-next {
+  top: 10px; /* Ajusta a distância do topo */
+  bottom: 90px ; /* Remove a propriedade bottom */
+  transform:none; /* Remove a transformação vertical */
+}
+
+.carrosselindex .carousel-control-prev {
+    top: 100px; /* Ajusta a distância do topo */
+    bottom: 0px ; /* Remove a propriedade bottom */
+    transform:none; /* Remove a transformação vertical */
+  
+}
+
+.fa-xmark {
+    font-size: 30px;
+}
 /*dúvidas:
-1.clase de f-brands para rodapé cor diferente mas n consegui;
-2.barra de topo não está a funcionar.
-3. como fazer barra de pesquisa?
+1.Tenho imagens pequenas que quero maiores.
+2. lista ordenada não está com os números no centro
+3.como colocar video centrado
+4. explicar problemas do carrossel 
+5.Explicar breakpoints
+6. Como aquilo de diminuir peso das imagens, githup e depois w3?
+
 
 3.coloocar alt nas imagens texto para invisuais
 wetransfer.*/
+
+
+@media (max-width: 768px) {
+    .search {
+        position: relative;
+        bottom: 30px;
+    }
+    .titulosartigosECOBELEZA {
+        font-size: 15px;
+    }
+
+    .letragrande {
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 490px) {
+    .letragrande {
+        font-size: large;
+    }
+}
